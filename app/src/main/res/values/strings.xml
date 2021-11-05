@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FindMe</string>
+    <string name="login_txtEmail">Digite su email</string>
+    <string name="login_txtClave">Digite su clave</string>
 </resources>
