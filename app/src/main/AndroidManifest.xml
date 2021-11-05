@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FindMe">
         <activity
+            android:name=".contactos"
+            android:exported="false" />
+        <activity
             android:name=".BienvenidaHome"
             android:exported="false" />
         <activity

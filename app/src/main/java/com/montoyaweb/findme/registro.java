@@ -19,4 +19,5 @@ public class registro extends AppCompatActivity {
         startActivity(irLogin);
     }
 
+
 }
