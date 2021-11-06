@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:background="@color/Teal_200"
     tools:context=".Login">
@@ -49,6 +49,7 @@
         app:srcCompat="@drawable/logofinal" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -85,9 +86,11 @@
             android:insetLeft="5dp"
             android:insetRight="5dp"
             android:text="Registro"
+            app:iconPadding="15dp"
             app:iconSize="10dp"
-            app:iconTint="@color/design_default_color_secondary_variant"
+            app:iconTint="@color/design_default_color_surface"
             app:rippleColor="@color/Teal_700" />
+
     </LinearLayout>
 
     <TextView
@@ -100,5 +103,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@android:drawable/ic_dialog_alert" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
