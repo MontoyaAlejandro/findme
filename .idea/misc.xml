@@ -5,6 +5,13 @@
       <map>
         <entry key="..\:/Users/A_Montoya/Desktop/Andoid/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/A_Montoya/Desktop/Andoid/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Users/GIYUX/AndroidStudioProjects/findme/app/src/main/res/layout/activity_bienvenida_home.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/GIYUX/AndroidStudioProjects/findme/app/src/main/res/layout/activity_contactos.xml" value="0.22" />
+        <entry key="..\:/Users/GIYUX/AndroidStudioProjects/findme/app/src/main/res/layout/activity_lugares.xml" value="0.25" />
+        <entry key="..\:/Users/GIYUX/AndroidStudioProjects/findme/app/src/main/res/layout/activity_lugares_add.xml" value="0.25" />
+        <entry key="..\:/Users/GIYUX/AndroidStudioProjects/findme/app/src/main/res/layout/activity_lugares_del_edit.xml" value="0.25" />
+        <entry key="..\:/Users/GIYUX/AndroidStudioProjects/findme/app/src/main/res/layout/activity_main.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/GIYUX/AndroidStudioProjects/findme/app/src/main/res/layout/activity_registro.xml" value="0.33" />
         <entry key="..\:/Users/Sistemas/Desktop/ProyectoFindme/app/src/main/res/layout/activity_bienvenida_home.xml" value="0.3645833333333333" />
         <entry key="..\:/Users/Sistemas/Desktop/ProyectoFindme/app/src/main/res/layout/activity_contactos.xml" value="0.3645833333333333" />
         <entry key="..\:/Users/Sistemas/Desktop/ProyectoFindme/app/src/main/res/layout/activity_login.xml" value="0.3645833333333333" />
@@ -13,7 +20,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
