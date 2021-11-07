@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:background="@color/Teal_50"
     tools:context=".Login">
@@ -48,6 +48,54 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/logofinal" />
 
+<<<<<<< HEAD
+=======
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/design_default_color_background"
+            android:backgroundTint="@color/design_default_color_background"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:shadowColor="@color/Teal_200"
+            android:text="Ingresar"
+            app:iconSize="10dp"
+            app:iconTint="@color/Teal_700"
+            app:layout_constraintTop_toTopOf="parent"
+            app:rippleColor="@color/Teal_700" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/design_default_color_secondary_variant"
+            android:backgroundTint="@color/design_default_color_secondary_variant"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="Registro"
+            app:iconPadding="15dp"
+            app:iconSize="10dp"
+            app:iconTint="@color/design_default_color_surface"
+            app:rippleColor="@color/Teal_700" />
+
+    </LinearLayout>
+
+>>>>>>> d79423653bf4852be2a18374a391e87d053acfc6
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -62,6 +110,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<<<<<<< HEAD
     <Button
         android:id="@+id/login_Btn_Registro"
         android:layout_width="wrap_content"
@@ -101,5 +150,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
         app:rippleColor="@color/Teal_700" />
+=======
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@android:drawable/ic_dialog_alert" />
+>>>>>>> d79423653bf4852be2a18374a391e87d053acfc6
 
 </androidx.constraintlayout.widget.ConstraintLayout>

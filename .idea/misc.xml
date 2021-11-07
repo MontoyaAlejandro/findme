@@ -15,6 +15,14 @@
         <entry key="..\:/Users/Sistemas/Desktop/ProyectoFindme/app/src/main/res/layout/activity_login.xml" value="0.3645833333333333" />
         <entry key="..\:/Users/Sistemas/Desktop/ProyectoFindme/app/src/main/res/layout/activity_main.xml" value="0.3015625" />
         <entry key="..\:/Users/Sistemas/Desktop/ProyectoFindme/app/src/main/res/layout/activity_registro.xml" value="0.3015625" />
+<<<<<<< HEAD
+=======
+        <entry key="..\:/Users/ingli/Documents/Lina/MINTIC-Program/Ciclo 4/RepositorioFindMe/app/src/main/res/layout/activity_bienvenida_home.xml" value="0.1" />
+        <entry key="..\:/Users/ingli/Documents/Lina/MINTIC-Program/Ciclo 4/RepositorioFindMe/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/ingli/Documents/Lina/MINTIC-Program/Ciclo 4/RepositorioFindMe/app/src/main/res/layout/activity_registro.xml" value="0.17314814814814813" />
+        <entry key="..\:/Users/ingli/Documents/Lina/MINTIC-Program/Ciclo 4/repos/app/src/main/res/layout/activity_bienvenida_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/ingli/Documents/Lina/MINTIC-Program/Ciclo 4/repos/app/src/main/res/layout/activity_login.xml" value="0.22" />
+>>>>>>> d79423653bf4852be2a18374a391e87d053acfc6
       </map>
     </option>
   </component>
