@@ -31,7 +31,7 @@
             android:name=".registro"
             android:exported="false" />
         <activity
-            android:name=".contacto"
+            android:name=".contacto_avatar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
