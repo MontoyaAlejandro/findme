@@ -11,49 +11,67 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="60dp"
         android:text="FindMe"
         android:textColor="#152A9F"
         android:textSize="38dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:cropToPadding="false"
+        android:padding="15dp"
+        android:rotationX="40"
+        android:rotationY="18"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:textAlignment="center"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@drawable/geolocalizacion_calles" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="410dp"
-        android:layout_height="613dp"
+        android:layout_width="415dp"
+        android:layout_height="464dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
         android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
         android:paddingBottom="5dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
-        tools:layout_editor_absoluteX="0dp">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="151dp"
-            android:layout_gravity="center_horizontal|center_vertical"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:cropToPadding="false"
-            android:padding="15dp"
-            android:rotationX="40"
-            android:rotationY="18"
-            android:scaleX="1.5"
-            android:scaleY="1.5"
-            android:textAlignment="center"
-            tools:srcCompat="@mipmap/geolocalizacion_calles" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <LinearLayout
-            android:layout_width="400dp"
+            android:layout_width="366dp"
             android:layout_height="35dp"
             android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:orientation="horizontal"
-            android:visibility="invisible"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:visibility="visible"
             tools:visibility="visible">
 
             <TextView
@@ -61,27 +79,38 @@
                 android:layout_width="90dp"
                 android:layout_height="35dp"
                 android:gravity="left|fill_vertical"
-                android:text=" ID:" />
+                android:text=" ID:"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:visibility="visible" />
 
             <EditText
                 android:id="@+id/id"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="fill_vertical"
                 android:width="250dp"
                 android:ems="10"
                 android:gravity="clip_vertical|fill_vertical"
                 android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:visibility="visible"
                 tools:visibility="visible" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="400dp"
-            android:layout_height="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:orientation="horizontal"
-            android:visibility="invisible"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:visibility="visible"
             tools:visibility="visible">
 
             <TextView
@@ -89,27 +118,39 @@
                 android:layout_width="90dp"
                 android:layout_height="35dp"
                 android:gravity="left|fill_vertical"
-                android:text="Lugar:" />
+                android:text="Lugar:"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:visibility="visible" />
 
             <EditText
                 android:id="@+id/lugar"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
+                android:layout_height="45dp"
                 android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
                 android:width="250dp"
                 android:ems="10"
                 android:gravity="clip_vertical|fill_vertical"
                 android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:visibility="visible"
                 tools:visibility="visible" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="400dp"
-            android:layout_height="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:orientation="horizontal"
-            android:visibility="invisible"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:visibility="visible"
             tools:visibility="visible">
 
             <TextView
@@ -117,27 +158,39 @@
                 android:layout_width="90dp"
                 android:layout_height="35dp"
                 android:gravity="left|fill_vertical"
-                android:text="Descripcion:" />
+                android:text="Descripcion:"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:visibility="visible" />
 
             <EditText
                 android:id="@+id/descripcion"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
                 android:width="250dp"
                 android:ems="10"
                 android:gravity="clip_vertical|fill_vertical"
                 android:inputType="textMultiLine"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:visibility="visible"
                 tools:visibility="visible" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="400dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:orientation="horizontal"
-            android:visibility="invisible"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:visibility="visible"
             tools:visibility="visible">
 
             <TextView
@@ -145,27 +198,34 @@
                 android:layout_width="90dp"
                 android:layout_height="35dp"
                 android:gravity="left|fill_vertical"
-                android:text="Latitud:" />
+                android:text="Latitud:"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:visibility="visible" />
 
             <EditText
                 android:id="@+id/latitud"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:layout_gravity="fill_vertical"
-                android:width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:ems="10"
-                android:gravity="clip_vertical|fill_vertical"
-                android:inputType="numberDecimal"
-                android:visibility="visible"
-                tools:visibility="visible" />
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="400dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:orientation="horizontal"
-            android:visibility="invisible"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:visibility="visible"
             tools:visibility="visible">
 
             <TextView
@@ -173,28 +233,38 @@
                 android:layout_width="90dp"
                 android:layout_height="35dp"
                 android:gravity="left|fill_vertical"
-                android:text="Longitud" />
+                android:text="Longitud"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
 
             <EditText
                 android:id="@+id/longitud"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:layout_gravity="fill_vertical"
-                android:width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:ems="10"
-                android:gravity="clip_vertical|fill_vertical"
-                android:inputType="numberDecimal"
-                tools:visibility="visible" />
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="170dp"
-            android:orientation="horizontal">
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:visibility="visible">
 
             <ListView
                 android:layout_width="match_parent"
-                android:layout_height="288dp" />
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                tools:visibility="visible" />
         </LinearLayout>
 
     </LinearLayout>
@@ -206,6 +276,7 @@
         android:clickable="true"
         android:scaleX="1.5"
         android:scaleY="1.5"
+        android:visibility="visible"
         app:backgroundTint="@android:color/holo_blue_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/agregar"
@@ -223,12 +294,14 @@
         android:clickable="true"
         android:scaleX="1.5"
         android:scaleY="1.5"
+        android:visibility="visible"
         app:backgroundTint="@color/Teal_700"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.915"
-        app:srcCompat="@android:drawable/ic_input_add"
-        tools:layout_editor_absoluteX="177dp" />
+        app:srcCompat="@android:drawable/ic_input_add" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/eliminar"
@@ -237,6 +310,7 @@
         android:clickable="true"
         android:scaleX="1.5"
         android:scaleY="1.5"
+        android:visibility="visible"
         app:backgroundTint="@android:color/holo_blue_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
