@@ -108,9 +108,11 @@
         android:id="@+id/floatingActionButton2"
         android:layout_width="70dp"
         android:layout_height="58dp"
+        android:layout_marginBottom="32dp"
         android:clickable="true"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="632dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/help" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
