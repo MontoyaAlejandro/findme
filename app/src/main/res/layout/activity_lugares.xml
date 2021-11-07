@@ -270,31 +270,34 @@
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/editar"
+        android:id="@+id/btn_editar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
         android:scaleX="1.5"
         android:scaleY="1.5"
         android:visibility="visible"
+        android:onClick="onClick"
         app:backgroundTint="@android:color/holo_blue_light"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/agregar"
+        app:layout_constraintEnd_toStartOf="@+id/btn_agregar"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.949"
         app:rippleColor="@android:color/holo_blue_bright"
-        app:srcCompat="@android:drawable/ic_menu_edit" />
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/agregar"
+        android:id="@+id/btn_agregar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
         android:scaleX="1.5"
         android:scaleY="1.5"
         android:visibility="visible"
+        android:onClick="onClick"
         app:backgroundTint="@color/Teal_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -304,18 +307,19 @@
         app:srcCompat="@android:drawable/ic_input_add" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/eliminar"
+        android:id="@+id/btn_eliminar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
         android:scaleX="1.5"
         android:scaleY="1.5"
         android:visibility="visible"
+        android:onClick="onClick"
         app:backgroundTint="@android:color/holo_blue_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toEndOf="@+id/agregar"
+        app:layout_constraintStart_toEndOf="@+id/btn_agregar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.949"
         app:rippleColor="#1f000000"
