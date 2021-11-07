@@ -10,9 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FindMe">
         <activity
+<<<<<<< HEAD
             android:name=".Pruebas"
             android:exported="false"
             android:label="@string/title_activity_pruebas" />
+=======
+            android:name=".lugares_edit_delete"
+            android:exported="false" />
+        <activity
+            android:name=".lugares_add"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+>>>>>>> 232f32a89b7f3b4084c9cbb927f1848a87ac61a8
         <activity
             android:name=".contactos"
             android:exported="false" />
@@ -20,13 +31,13 @@
             android:name=".BienvenidaHome"
             android:exported="false" />
         <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".registro"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
+            android:name=".Lugares"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
