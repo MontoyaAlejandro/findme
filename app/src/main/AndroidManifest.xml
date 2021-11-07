@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FindMe">
         <activity
+            android:name=".Lugares"
+            android:exported="false" />
+        <activity
             android:name=".lugares_edit_delete"
             android:exported="false" />
         <activity
@@ -17,9 +20,6 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".contactos"
             android:exported="false" />
         <activity
             android:name=".BienvenidaHome"
@@ -31,7 +31,7 @@
             android:name=".registro"
             android:exported="false" />
         <activity
-            android:name=".Lugares"
+            android:name=".contacto"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
