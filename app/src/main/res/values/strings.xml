@@ -9,4 +9,8 @@
     <string name="contactos_HInt_Email">Email</string>
     <string name="contactos_Hint_Telefono">Telefono</string>
     <string name="contactos_Hint_Direccion">Direccón</string>
+    <string name="title_activity_pruebas">Pruebas</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

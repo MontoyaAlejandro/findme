@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/A_Montoya/Desktop/Andoid/app/src/main/res/layout/activity_bienvenida_home.xml" value="0.14583333333333334" />
         <entry key="..\:/Users/A_Montoya/Desktop/Andoid/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/A_Montoya/Desktop/Andoid/app/src/main/res/layout/activity_pruebas.xml" value="0.15896739130434784" />
         <entry key="..\:/Users/A_Montoya/Desktop/Andoid/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Users/A_Montoya/Desktop/Andoid/app/src/main/res/layout/fragment_dashboard.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/A_Montoya/Desktop/Andoid/app/src/main/res/layout/fragment_home.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/A_Montoya/Desktop/Andoid/app/src/main/res/layout/fragment_notifications.xml" value="0.15896739130434784" />
         <entry key="..\:/Users/Sistemas/Desktop/ProyectoFindme/app/src/main/res/layout/activity_bienvenida_home.xml" value="0.3645833333333333" />
         <entry key="..\:/Users/Sistemas/Desktop/ProyectoFindme/app/src/main/res/layout/activity_contactos.xml" value="0.3645833333333333" />
         <entry key="..\:/Users/Sistemas/Desktop/ProyectoFindme/app/src/main/res/layout/activity_login.xml" value="0.3645833333333333" />
@@ -13,7 +18,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

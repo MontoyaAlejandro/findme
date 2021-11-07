@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FindMe">
         <activity
+            android:name=".Pruebas"
+            android:exported="false"
+            android:label="@string/title_activity_pruebas" />
+        <activity
             android:name=".contactos"
             android:exported="false" />
         <activity
