@@ -5,10 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Teal_200"
-<<<<<<< HEAD
-=======
+
     android:backgroundTint="@color/Teal_200"
->>>>>>> d79423653bf4852be2a18374a391e87d053acfc6
+
     tools:context=".BienvenidaHome">
 
     <Button
@@ -34,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/logofinal" />
+        app:srcCompat="@mipmap/logofinal" />
 
     <Button
         android:id="@+id/button4"

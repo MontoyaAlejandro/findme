@@ -1,3 +1,4 @@
+/*
 package com.montoyaweb.findme.ui.dashboard;
 
 import android.os.Bundle;
@@ -43,4 +44,4 @@ public class DashboardFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
-}
+}*/

@@ -46,10 +46,9 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/logofinal" />
+        app:srcCompat="@mipmap/logofinal" />
 
-<<<<<<< HEAD
-=======
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
@@ -95,7 +94,7 @@
 
     </LinearLayout>
 
->>>>>>> d79423653bf4852be2a18374a391e87d053acfc6
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -110,7 +109,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-<<<<<<< HEAD
+
     <Button
         android:id="@+id/login_Btn_Registro"
         android:layout_width="wrap_content"
@@ -150,7 +149,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
         app:rippleColor="@color/Teal_700" />
-=======
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
@@ -161,6 +160,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:srcCompat="@android:drawable/ic_dialog_alert" />
->>>>>>> d79423653bf4852be2a18374a391e87d053acfc6
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

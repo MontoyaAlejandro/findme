@@ -1,3 +1,4 @@
+/*
 package com.montoyaweb.findme.ui.home;
 
 import android.os.Bundle;
@@ -43,4 +44,4 @@ public class HomeFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
-}
+}*/

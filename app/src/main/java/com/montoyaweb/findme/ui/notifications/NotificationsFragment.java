@@ -1,3 +1,4 @@
+/*
 package com.montoyaweb.findme.ui.notifications;
 
 import android.os.Bundle;
@@ -43,4 +44,4 @@ public class NotificationsFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
-}
+}*/

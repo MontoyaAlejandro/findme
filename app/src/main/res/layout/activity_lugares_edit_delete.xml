@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/logofinal"
+    android:background="@mipmap/logofinal"
     android:backgroundTint="@color/Teal_200"
     android:backgroundTintMode="screen"
     android:hapticFeedbackEnabled="false"
@@ -164,6 +164,7 @@
         app:layout_constraintBottom_toTopOf="@+id/latitud_edit_delete"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lugar_edit_delete" />
+        app:layout_constraintTop_toBottomOf="@+id/lugar_edit_delete"
+        tools:ignore="RtlCompat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

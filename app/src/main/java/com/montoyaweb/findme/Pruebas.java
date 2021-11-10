@@ -1,3 +1,4 @@
+/*
 package com.montoyaweb.findme;
 
 import android.os.Bundle;
@@ -10,7 +11,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.montoyaweb.findme.databinding.ActivityPruebasBinding;
+import com.montoyaweb.findme.databinding.*;
 
 public class Pruebas extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class Pruebas extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityPruebasBinding.inflate(getLayoutInflater());
+        binding = Ac.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         BottomNavigationView navView = findViewById(R.id.nav_view);
@@ -34,4 +35,4 @@ public class Pruebas extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
-}
+}*/
