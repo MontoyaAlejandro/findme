@@ -55,7 +55,7 @@
             tools:visibility="visible">
 
             <ImageButton
-                android:id="@+id/btn_avatar_contacto"
+                android:id="@+id/btn_Avatar_ContactoAvatar"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_margin="4dp"
@@ -64,7 +64,7 @@
                 tools:visibility="visible" />
 
             <ImageButton
-                android:id="@+id/btn_galeria_contacto"
+                android:id="@+id/btn_Camara_ContactoAvatar"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_margin="4dp"
@@ -73,7 +73,7 @@
                 tools:visibility="visible" />
 
             <ImageButton
-                android:id="@+id/btn_camara_contacto"
+                android:id="@+id/btn_Galeria_ContactoAvatar"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_margin="4dp"
@@ -94,7 +94,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_aceptar_contacto"
+        android:id="@+id/btn_Aceptar_ContactoAvatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
@@ -107,7 +107,7 @@
         tools:visibility="visible" />
 
     <Button
-        android:id="@+id/btn_cancelar_contacto"
+        android:id="@+id/btn_Cancelar_ContactoAvatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cancelar"
@@ -115,7 +115,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.539"
-        app:layout_constraintStart_toEndOf="@+id/btn_aceptar_contacto"
+        app:layout_constraintStart_toEndOf="@+id/btn_Aceptar_ContactoAvatar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.925"
         app:rippleColor="@android:color/holo_blue_light"

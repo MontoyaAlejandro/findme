@@ -8,7 +8,7 @@
     tools:context=".contactos">
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/txt_Nombre_Contactos"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/txt_Direccion_Contactos"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -35,22 +35,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Email_Contactos" />
 
     <Button
-        android:id="@+id/contactos_Btn_Guardar"
+        android:id="@+id/btn_Guardar_Contactos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="40dp"
         android:text="@string/contactos_Btn_Guardar"
-        app:layout_constraintEnd_toStartOf="@+id/contactos_Btn_Regresar"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Regresar_Contactos"
         app:layout_constraintHorizontal_bias="0.795"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Direccion_Contactos" />
 
     <Button
-        android:id="@+id/contactos_Btn_Regresar"
+        android:id="@+id/btn_Regresar_Contactos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
@@ -58,10 +58,10 @@
         android:onClick="ir_Bienvenida"
         android:text="@string/contactos_Btn_Regresar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Direccion_Contactos" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/txt_Email_Contactos"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -72,10 +72,10 @@
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone2" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Telefono_Contactos" />
 
     <EditText
-        android:id="@+id/editTextPhone2"
+        android:id="@+id/txt_Telefono_Contactos"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -86,7 +86,7 @@
         android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Nombre_Contactos" />
 
     <ImageView
         android:id="@+id/imageView2"

@@ -18,9 +18,9 @@ public class lugares_edit_delete extends AppCompatActivity {
 
         Intent miIntent=null;
         switch (view.getId()){
-            case R.id.btn_update:
+            case R.id.btn_Update_LugaresEditDelete:
 
-            case R.id.btn_delete:
+            case R.id.btn_Delete_LugaresEditDelete:
                 miIntent=new Intent(lugares_edit_delete.this, Lugares.class);
                 startActivity(miIntent);
                 break;
