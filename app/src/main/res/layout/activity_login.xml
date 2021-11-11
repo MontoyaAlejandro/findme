@@ -8,7 +8,7 @@
     tools:context=".Login">
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/txt_Email_Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/text_Pass_Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -35,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Email_Login" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -63,7 +63,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/login_Btn_Registro"
+        android:id="@+id/btn_Registro_Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
@@ -76,12 +76,12 @@
         android:text="Registro"
         app:iconSize="10dp"
         app:iconTint="@color/design_default_color_secondary_variant"
-        app:layout_constraintStart_toEndOf="@+id/login_Btn_Ingresar"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toEndOf="@+id/btn_Ingresar_Login"
+        app:layout_constraintTop_toBottomOf="@+id/text_Pass_Login"
         app:rippleColor="@color/Teal_700" />
 
     <Button
-        android:id="@+id/login_Btn_Ingresar"
+        android:id="@+id/btn_Ingresar_Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -96,10 +96,10 @@
         android:text="@string/btn_Ingresar"
         app:iconSize="10dp"
         app:iconTint="@color/Teal_700"
-        app:layout_constraintEnd_toStartOf="@+id/login_Btn_Registro"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Registro_Login"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/text_Pass_Login"
         app:rippleColor="@color/Teal_700" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

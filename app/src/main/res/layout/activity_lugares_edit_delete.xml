@@ -35,7 +35,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <EditText
-        android:id="@+id/id_edit_delete"
+        android:id="@+id/txt_Id_LugaresEditDelete"
         android:layout_width="141dp"
         android:layout_height="41dp"
         android:layout_marginTop="20dp"
@@ -43,19 +43,19 @@
         android:alpha="0.3"
         android:backgroundTint="@color/material_on_background_emphasis_medium"
         android:ems="10"
+        android:hint="ID No Editable"
         android:inputType="textPersonName"
-        android:text="ID No Editable"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textColorHint="#000000"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/lugar_edit_delete"
+        app:layout_constraintBottom_toTopOf="@+id/txt_Lugar_LugaresEditDelete"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <EditText
-        android:id="@+id/lugar_edit_delete"
+        android:id="@+id/txt_Lugar_LugaresEditDelete"
         android:layout_width="202dp"
         android:layout_height="42dp"
         android:layout_marginTop="5dp"
@@ -63,20 +63,20 @@
         android:alpha="0.3"
         android:backgroundTint="@color/material_on_background_emphasis_medium"
         android:ems="10"
+        android:hint="Lugar"
         android:inputType="textPersonName"
-        android:text="Lugar"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textColorHint="#000000"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/descripcion_edit_delete"
+        app:layout_constraintBottom_toTopOf="@+id/txt_Descripcion_LugaresAdd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/id_edit_delete" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Id_LugaresEditDelete" />
 
     <EditText
-        android:id="@+id/latitud_edit_delete"
+        android:id="@+id/txt_Latitud_LugaresAdd"
         android:layout_width="202dp"
         android:layout_height="42dp"
         android:layout_marginTop="5dp"
@@ -84,20 +84,20 @@
         android:alpha="0.3"
         android:backgroundTint="@color/material_on_background_emphasis_medium"
         android:ems="10"
+        android:hint="Latitud"
         android:inputType="textPersonName"
-        android:text="Latitud"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textColorHint="#000000"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/longitud_edit_delete"
+        app:layout_constraintBottom_toTopOf="@+id/txt_Longitud_LugaresAdd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/descripcion_edit_delete" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Descripcion_LugaresAdd" />
 
     <EditText
-        android:id="@+id/longitud_edit_delete"
+        android:id="@+id/txt_Longitud_LugaresAdd"
         android:layout_width="202dp"
         android:layout_height="42dp"
         android:layout_marginTop="5dp"
@@ -105,8 +105,8 @@
         android:alpha="0.3"
         android:backgroundTint="@color/material_on_background_emphasis_medium"
         android:ems="10"
+        android:hint="Longitud"
         android:inputType="textPersonName"
-        android:text="Longitud"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textColorHint="#000000"
@@ -115,17 +115,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/latitud_edit_delete"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Latitud_LugaresAdd"
         app:layout_constraintVertical_bias="0.309" />
 
     <ImageButton
-        android:id="@+id/btn_update"
+        android:id="@+id/btn_Update_LugaresEditDelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Teal_700"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_delete"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Delete_LugaresEditDelete"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -133,7 +133,7 @@
         app:srcCompat="?android:attr/actionModeFindDrawable" />
 
     <ImageButton
-        android:id="@+id/btn_delete"
+        android:id="@+id/btn_Delete_LugaresEditDelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="96dp"
@@ -146,7 +146,7 @@
         app:srcCompat="@android:drawable/ic_menu_delete" />
 
     <EditText
-        android:id="@+id/descripcion_edit_delete"
+        android:id="@+id/txt_Descripcion_LugaresAdd"
         android:layout_width="211dp"
         android:layout_height="67dp"
         android:layout_marginTop="5dp"
@@ -155,15 +155,15 @@
         android:backgroundTint="@color/material_on_background_emphasis_medium"
         android:ems="10"
         android:gravity="start|top"
+        android:hint="Descripción"
         android:inputType="textMultiLine"
-        android:text="Descripción"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textColorHint="#000000"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/latitud_edit_delete"
+        app:layout_constraintBottom_toTopOf="@+id/txt_Latitud_LugaresAdd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lugar_edit_delete" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Lugar_LugaresEditDelete" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
