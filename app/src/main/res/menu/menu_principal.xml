@@ -5,9 +5,6 @@
         android:id="@+id/menu_mniHome"
         android:title="@string/menu_mniHome" />
     <item
-        android:id="@+id/menu_mniPerfil"
-        android:title="@string/menu_mniPerfil" />
-    <item
         android:id="@+id/menu_mniAgregarContacto"
         android:title="@string/menu_mniContactos" />
     <item

@@ -36,10 +36,6 @@ public class MenuActivity extends AppCompatActivity {
                 i = new Intent(this, BienvenidaHome.class);
                 break;
 
-            case R.id.menu_mniPerfil:
-                i = new Intent(this, Login.class);
-                break;
-
             case R.id.menu_mniAgregarContacto:
               i= new Intent(this, contactos.class);
                break;
