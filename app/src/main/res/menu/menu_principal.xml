@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/menu_mniHome"
+        android:title="@string/menu_mniHome" />
+    <item
+        android:id="@+id/menu_mniPerfil"
+        android:title="@string/menu_mniPerfil" />
+    <item
+        android:id="@+id/menu_mniAgregarContacto"
+        android:title="@string/menu_mniContactos" />
+    <item
+        android:id="@+id/menu_mniLugares"
+        android:title="@string/menu_mniLugares" />
+    <item
+        android:id="@+id/menu_mniAcerca"
+        android:title="@string/menu_mniAcerca" />
 </menu>

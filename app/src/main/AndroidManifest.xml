@@ -10,20 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FindMe">
         <activity
+            android:name=".AcercaDeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            android:name=".Pruebas"
-            android:exported="false"
-            android:label="@string/title_activity_pruebas" />
-
-            android:name=".lugares_edit_delete"
-            android:exported="false" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        /
         <activity
             android:name=".lugares_add"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
         <activity
             android:name=".contactos"
             android:exported="false" />
@@ -38,12 +42,8 @@
             android:exported="false" />
         <activity
             android:name=".Lugares"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
