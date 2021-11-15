@@ -35,7 +35,6 @@ public class Login extends AppCompatActivity {
             public void onClick(View view) {
                 registrar(txtEmail.getText().toString(), txtClave.getText().toString());
                 System.out.println("prueba de registro exitosa");
-                msgError(view.getContext());
 
             }
         });
