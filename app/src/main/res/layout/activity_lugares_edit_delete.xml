@@ -8,163 +8,173 @@
     android:backgroundTint="@color/Teal_200"
     android:backgroundTintMode="screen"
     android:hapticFeedbackEnabled="false"
+    android:padding="5dp"
     tools:context=".lugares_edit_delete">
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="FindMe"
-        android:textColor="#152A9F"
-        android:textSize="38dp"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        app:cardBackgroundColor="#60ECF0F1"
+        app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <EditText
-        android:id="@+id/id_edit_delete"
-        android:layout_width="141dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="5dp"
-        android:alpha="0.3"
-        android:backgroundTint="@color/material_on_background_emphasis_medium"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="ID No Editable"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textColorHint="#000000"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/lugar_edit_delete"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#B2EBF2"
+            android:padding="5dp"
+            app:cardBackgroundColor="#EBFFFFFF"
+            app:cardCornerRadius="20dp">
 
-    <EditText
-        android:id="@+id/lugar_edit_delete"
-        android:layout_width="202dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:alpha="0.3"
-        android:backgroundTint="@color/material_on_background_emphasis_medium"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Lugar"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textColorHint="#000000"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/descripcion_edit_delete"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/id_edit_delete" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/latitud_edit_delete"
-        android:layout_width="202dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:alpha="0.3"
-        android:backgroundTint="@color/material_on_background_emphasis_medium"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Latitud"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textColorHint="#000000"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/longitud_edit_delete"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/descripcion_edit_delete" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/longitud_edit_delete"
-        android:layout_width="202dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="60dp"
-        android:alpha="0.3"
-        android:backgroundTint="@color/material_on_background_emphasis_medium"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Longitud"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textColorHint="#000000"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/latitud_edit_delete"
-        app:layout_constraintVertical_bias="0.309" />
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:text="FindMe"
+                        android:textAlignment="center"
+                        android:textColor="#152A9F"
+                        android:textSize="20sp"
+                        android:visibility="visible" />
 
-    <ImageButton
-        android:id="@+id/btn_update"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/Teal_700"
-        android:onClick="onClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_delete"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        app:srcCompat="?android:attr/actionModeFindDrawable" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/btn_delete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="96dp"
-        android:backgroundTint="@color/design_default_color_error"
-        android:onClick="onClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        app:srcCompat="@android:drawable/ic_menu_delete" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/descripcion_edit_delete"
-        android:layout_width="211dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:alpha="0.3"
-        android:backgroundTint="@color/material_on_background_emphasis_medium"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="Descripción"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textColorHint="#000000"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/latitud_edit_delete"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lugar_edit_delete"
-        tools:ignore="RtlCompat" />
+                            <EditText
+                                android:id="@+id/txt_Id_LugaresEditDelete"
+                                android:layout_width="280dp"
+                                android:layout_height="wrap_content"
+                                android:alpha="0.3"
+                                android:backgroundTint="@color/material_on_background_emphasis_medium"
+                                android:ems="10"
+                                android:hint="@string/txt_hint_id"
+                                android:inputType="textPersonName"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textSize="12sp"
+                                android:textStyle="italic"
+                                android:autofillHints=""/>
+
+                            <EditText
+                                android:id="@+id/txt_Lugar_LugaresEditDelete"
+                                android:layout_width="280dp"
+                                android:layout_height="wrap_content"
+                                android:alpha="0.3"
+                                android:backgroundTint="@color/material_on_background_emphasis_medium"
+                                android:ems="10"
+                                android:hint="@string/txt_hint_Nombre"
+                                android:inputType="textPersonName"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textColorHint="#000000"
+                                android:textSize="12sp"
+                                android:textStyle="italic"
+                                android:autofillHints=""/>
+
+                            <EditText
+                                android:id="@+id/txt_Descripcion_LugaresEditDelete"
+                                android:layout_width="280dp"
+                                android:layout_height="wrap_content"
+                                android:alpha="0.3"
+                                android:backgroundTint="@color/material_on_background_emphasis_medium"
+                                android:ems="10"
+                                android:gravity="start|top"
+                                android:hint="@string/txt_hint_Descripcion"
+                                android:inputType="textPersonName"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textColorHint="#000000"
+                                android:textSize="12sp"
+                                android:textStyle="italic"
+                                tools:ignore="RtlCompat" />
+
+                            <EditText
+                                android:id="@+id/txt_Latitud_LugaresEditDelete"
+                                android:layout_width="280dp"
+                                android:layout_height="wrap_content"
+                                android:alpha="0.3"
+                                android:backgroundTint="@color/material_on_background_emphasis_medium"
+                                android:ems="10"
+                                android:hint="@string/txt_hint_Latitud"
+                                android:inputType="textPersonName"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textColorHint="#000000"
+                                android:textSize="12sp"
+                                android:textStyle="italic"
+                                android:autofillHints=""/>
+
+                            <EditText
+                                android:id="@+id/txt_Longitud_LugaresEditDelete"
+                                android:layout_width="280dp"
+                                android:layout_height="wrap_content"
+                                android:alpha="0.3"
+                                android:backgroundTint="@color/material_on_background_emphasis_medium"
+                                android:ems="10"
+                                android:hint="@string/txt_hint_Longitud"
+                                android:inputType="textPersonName"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textColorHint="#000000"
+                                android:textSize="12sp"
+                                android:textStyle="italic"
+                                android:autofillHints=""/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/btn_Update_LugaresEditDelete"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="right"
+                                android:layout_margin="15dp"
+                                android:backgroundTint="@color/Teal_700"
+                                android:onClick="onClick"
+                                app:srcCompat="?android:attr/actionModeFindDrawable" />
+
+                            <ImageButton
+                                android:id="@+id/btn_Delete_LugaresEditDelete"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="right"
+                                android:layout_margin="15dp"
+                                android:layout_marginEnd="96dp"
+                                android:backgroundTint="@color/design_default_color_error"
+                                android:onClick="onClick"
+                                app:srcCompat="@android:drawable/ic_menu_delete" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

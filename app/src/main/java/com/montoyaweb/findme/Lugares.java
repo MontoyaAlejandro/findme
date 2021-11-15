@@ -1,10 +1,18 @@
 package com.montoyaweb.findme;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.montoyaweb.findme.DAO.LugarDAO;
+import com.montoyaweb.findme.adapters.LugaresAdapter;
 
 public class Lugares extends AppCompatActivity {
 
@@ -12,25 +20,38 @@ public class Lugares extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lugares);
+
+        actualizarListaLugares();
+
+        FloatingActionButton btnInsertar =(FloatingActionButton) findViewById(R.id.btn_Agregar_Lugares);
+        btnInsertar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+                Intent i = new Intent(view.getContext(), lugares_add.class);
+                startActivity(i);
+            }
+        });
+
+        Button btnBuscar = (Button) findViewById((R.id.btn_Buscar_Lugares));
+        btnBuscar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){actualizarListaLugares();}
+        });
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        actualizarListaLugares();
     }
 
 
-    public void onClick(View view) {
-        Intent miIntent=null;
-        switch (view.getId()){
-            case R.id.btn_editar:
-
-            case R.id.btn_eliminar:
-                miIntent=new Intent(Lugares.this, lugares_edit_delete.class);
-
-                break;
-
-            case R.id.btn_agregar:
-                miIntent=new Intent(Lugares.this, lugares_add.class);
-
-        }
-        startActivity(miIntent);
-
-
+    private void actualizarListaLugares() {
+        EditText textoBusqueda = (EditText) findViewById(R.id.txt_Busqueda_Lugares);
+        RecyclerView recLugares = (RecyclerView) findViewById(R.id.rcw_lista_lugares);
+        recLugares.setLayoutManager(new LinearLayoutManager(this));
+        LugarDAO db = new LugarDAO(this);
+        LugaresAdapter luAD = new LugaresAdapter(db.listar(textoBusqueda.getText().toString()));
+        recLugares.setNestedScrollingEnabled(true);
+        recLugares.setAdapter(luAD);
     }
 }

@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/image_logo"
         android:layout_width="225dp"
         android:layout_height="161dp"
         android:layout_marginTop="4dp"
@@ -112,7 +112,7 @@
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/btn_Coordenadas_LugaresAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"

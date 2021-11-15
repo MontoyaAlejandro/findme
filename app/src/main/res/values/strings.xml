@@ -28,4 +28,24 @@
     <string name="Acercade_creadores">Grupo 5 V19 </string>
     <string name="Acercade_misiontic">MISIÓN TIC</string>
 
+    <!-- String de las activities lugares, lugares_add y lugares_edit_delete -->
+    <string name="img_descripcion_geolocalizacionCalles">Imagen tipo vector de Mapa</string>
+    <string name="btnEditar_descripcion">Botón para Editar</string>
+    <string name="btnEliminar_descripcion">Botón para Eliminar</string>
+    <string name="btnRegistrar_descripcion">Botón para Guardar</string>
+    <string name="txt_hint_Nombre">Nombre del Lugar</string>
+    <string name="txt_hint_Descripcion">Descripción del Lugar</string>
+    <string name="txt_hint_Latitud">Latitud del Lugar</string>
+    <string name="txt_hint_Longitud">Longitut del Lugar</string>
+    <string name="txt_hint_id">ID No Editable</string>
+    <string name="btn_Guardar_LugaresEdit">Guardar</string>
+    <string name="btn_Regresar_LugaresEdit">Regresar</string>
+    <string name="btn_buscar_Lugares">Buscar</string>
+    <string name="txt_hint_busqueda">Criterio de Busqueda</string>
+    <!--
+
+
+    <string name=""></string>
+    <string name=""></string>
+    -->
 </resources>
