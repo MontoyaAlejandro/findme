@@ -2,13 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.montoyaweb.findme">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,15 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FindMe">
         <activity
-            android:name=".AcercaDeActivity"
+            android:name=".BienvenidaHome"
             android:exported="false" />
         <activity
             android:name=".MenuActivity"
-            android:exported="false">
-        </activity>
-        /
+            android:exported="false"/>
         <activity
-            android:name=".Login"
+            android:name=".registro"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -34,16 +25,23 @@
             android:name=".contactos"
             android:exported="false" />
         <activity
-            android:name=".BienvenidaHome"
+            android:name=".AcercaDeActivity"
             android:exported="false" />
+        <activity
+            android:name=".Lugares"
+            android:exported="true"/>
+        <activity
+            android:name=".lugares_edit_delete"
+            android:exported="true"/>
         <activity
             android:name=".lugares_add"
             android:exported="false" />
         <activity
             android:name=".registro"
             android:exported="false" />
+
         <activity
-            android:name=".Lugares"
+            android:name=".Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

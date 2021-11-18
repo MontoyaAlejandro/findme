@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Teal_50"
+    android:background="@color/Teal_200"
     tools:context=".contactos">
 
     <EditText
@@ -15,7 +15,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="30dp"
         android:ems="10"
-        android:hint="@string/contactos_Hint_Nombre"
+        android:hint="Nombre"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -30,7 +30,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="30dp"
         android:ems="10"
-        android:hint="@string/contactos_Hint_Direccion"
+        android:hint="direccion"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -41,11 +41,11 @@
         android:id="@+id/contactos_Btn_Guardar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="40dp"
-        android:text="@string/contactos_Btn_Guardar"
+        android:text="Guardar"
         app:layout_constraintEnd_toStartOf="@+id/contactos_Btn_Regresar"
-        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
 
@@ -53,11 +53,12 @@
         android:id="@+id/contactos_Btn_Regresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginTop="64dp"
         android:onClick="ir_Bienvenida"
-        android:text="@string/contactos_Btn_Regresar"
+        android:text="Regresar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.963"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
 
     <EditText
@@ -68,7 +69,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="30dp"
         android:ems="10"
-        android:hint="@string/contactos_HInt_Email"
+        android:hint="email"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +83,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="30dp"
         android:ems="10"
-        android:hint="@string/contactos_Hint_Telefono"
+        android:hint="Telefono"
         android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
