@@ -3,6 +3,7 @@ package com.montoyaweb.findme;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -33,7 +34,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 registrar(txtEmail.getText().toString(), txtClave.getText().toString());
-                System.out.println("prueba de registro");
+                System.out.println("prueba de registro exitosa");
 
             }
         });
@@ -44,7 +45,7 @@ public class Login extends AppCompatActivity {
     private void registrar(String email, String clave)
     {
         if(email.isEmpty() || clave.isEmpty()) {
-            msgError();
+            msgError(this);
         }
 
         if(!email.isEmpty() && !clave.isEmpty()) {
@@ -56,7 +57,7 @@ public class Login extends AppCompatActivity {
     private void acceder(String email, String clave)
     {
         if(email.isEmpty() || clave.isEmpty()) {
-            msgError();
+            msgError(this);
         }
 
         if(!email.isEmpty() && !clave.isEmpty()) {
@@ -66,9 +67,9 @@ public class Login extends AppCompatActivity {
         }
 
 
-    private void msgError()
+    private void msgError(Context contexto)
     {
-        AlertDialog.Builder mensaje = new AlertDialog.Builder(this);
+        AlertDialog.Builder mensaje = new AlertDialog.Builder(contexto);
         mensaje.setTitle("Error");
         mensaje.setMessage("Se ha producido un error autenticando al usuario");
         mensaje.setPositiveButton("Aceptar", null);
