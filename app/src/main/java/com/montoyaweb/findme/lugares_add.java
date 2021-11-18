@@ -26,7 +26,7 @@ public class lugares_add extends AppCompatActivity {
         //hacer captura de la informacion:
         EditText campoNombre =(EditText) findViewById(R.id.txt_Nombre_LugaresAdd);
         EditText campoDescripcion =(EditText) findViewById(R.id.txt_Descripcion_LugaresAdd);
-        EditText campoLatitud =(EditText) findViewById(R.id.txt_Nombre_LugaresAdd);
+        EditText campoLatitud =(EditText) findViewById(R.id.txt_Latitud_LugaresAdd);
         EditText campoLongitud =(EditText) findViewById(R.id.txt_Longitud_LugaresAdd);
         Button btnInsertar = (Button) findViewById(R.id.btn_insert_LugaresAdd);
         //Button btnCoordenadas= (Button) findViewById(R.id.btn_Coordenadas_LugaresAdd);

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FindMe">
         <activity
-            android:name=".BienvenidaHome"
+            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MenuActivity"
@@ -36,12 +36,10 @@
         <activity
             android:name=".lugares_add"
             android:exported="false" />
-        <activity
-            android:name=".registro"
-            android:exported="false" />
+
 
         <activity
-            android:name=".Login"
+            android:name=".BienvenidaHome"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

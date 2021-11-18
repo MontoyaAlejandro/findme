@@ -31,7 +31,7 @@ public class LugarDAO extends ConexionBaseDatos {
             valores.put("nombre_lugar", lugar.getLugar());
             valores.put("descripcion_lugar", lugar.getDescripcion());
             valores.put("latitud_lugar", lugar.getLatitud());
-            valores.put("longitud_lugar", lugar.getLugar());
+            valores.put("longitud_lugar", lugar.getLongitud());
             id=db.insert("lugares", null, valores);
 
         }
